@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+    node1:
+        build:
+          context: ./
+          dockerfile: image.docker
+    node2:
+        build:
+          context: ./
+          dockerfile: image.docker
+    node3:
+        build:
+          context: ./
+          dockerfile: image.docker
+
